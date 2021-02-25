@@ -6,7 +6,7 @@ import java.util.Locale;
 public class resolucao {
 
 	public static void main(String[] args) {
-		// Crie um programa que exiba a tabuada de um número informado pelo usuário.
+		// Crie um programa que exiba a tabuada de um nÃºmero informado pelo usuÃ¡rio.
 
 		Locale.setDefault(new Locale("pt", "BR"));
 		
@@ -18,8 +18,7 @@ public class resolucao {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Programa que exibe a tabuada de um numero");
-		System.out.println("");
-		System.out.print("Informe um número: ");
+		System.out.print("Informe um nÃºmero: ");
 		valorLido = sc.nextLine();
 		n = Integer.parseInt(valorLido);
 		
